@@ -1,1 +1,1 @@
-https://github.com/Anti-RakPro/rsschool-cv/blob/gh-pages/cv.md
+https://Anti-RakPro.github.io/rsschool-cv/cv
