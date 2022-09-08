@@ -1,1 +1,1 @@
-https://Anti-RakPro.github.io/rsschool-cv/cv
+https://anti-rakpro.github.io/rsschool-cv/
