@@ -50,17 +50,17 @@ function sortByBit(arr) {
     for (let y of testArr){\
       if (y === '1' ){\
         count = count + 1\
-      }\
+      }
     }\
     return count\
-  }\
+  }
   
   let checkArr = []\
   let doIt = arr.forEach(e => { checkArr.push(fun1(e))})\
   arr.sort((a,b)=> (fun1(a) === fun1(b))?  a - b :  fun1(a) - fun1(b) )\
   
   return arr\
-}\
+}
 
 ------------------------------------------------------------------------
 
