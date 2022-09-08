@@ -43,24 +43,24 @@ If something doesn't work out for me, I will try until I succeed.
 
 function sortByBit(arr) {
 
-  function fun1 (num){
-    let str = (num).toString(2)
-    let count = 0
-   let testArr = str.split('')
-    for (let y of testArr){
-      if (y === '1' ){
-        count = count + 1
-      }
-    }
-    return count
-  }
+  function fun1 (num){\
+    let str = (num).toString(2)\
+    let count = 0\
+   let testArr = str.split('')\
+    for (let y of testArr){\
+      if (y === '1' ){\
+        count = count + 1\
+      }\
+    }\
+    return count\
+  }\
   
-  let checkArr = []
-  let doIt = arr.forEach(e => { checkArr.push(fun1(e))})
-  arr.sort((a,b)=> (fun1(a) === fun1(b))?  a - b :  fun1(a) - fun1(b) )
+  let checkArr = []\
+  let doIt = arr.forEach(e => { checkArr.push(fun1(e))})\
+  arr.sort((a,b)=> (fun1(a) === fun1(b))?  a - b :  fun1(a) - fun1(b) )\
   
-  return arr
-}
+  return arr\
+}\
 
 ------------------------------------------------------------------------
 
@@ -82,4 +82,3 @@ function sortByBit(arr) {
 -   Russian - Intermediate
 
 :::
-
